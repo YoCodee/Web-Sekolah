@@ -1,0 +1,813 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  background-color: #49688e;
+  display: flex;
+}
+nav .email div{
+  display: flex;
+
+}
+
+nav .email {
+  margin-left: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav .email p {
+  align-items: center;
+}
+nav .telp {
+  display: flex;
+}
+
+nav .email .fa-envelope {
+  margin-right: 8px;
+  margin-top: 12px;
+  margin-left: 8px;
+}
+nav .email .fa-location-dot {
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-top: 12px;
+}
+
+nav .email .fa-phone {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 12px;
+}
+
+nav .garis {
+  color: white;
+  margin-left: 12px;
+}
+nav .garis1 {
+  color: white;
+  margin-left: 3px;
+}
+nav .tagline {
+  color: #000;
+  font-size: 1.7rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.carousel-item .gambar {
+  width: 100%;
+  height: 660px;
+  display: flex;
+}
+
+.carousel-item .gambar2 {
+  width: 100%;
+  height: 660px;
+  display: flex;
+}
+
+.carousel-item .gambar3 {
+  width: 100%;
+  height: 660px;
+  display: inline-block;
+  display: flex;
+}
+
+
+
+.smk2 h1 {
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 3.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.smk2 div {
+  padding: 12px 10px 12px 10px;
+  background-color: #294a70;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  max-width: 12rem;
+  margin: 12px auto;
+}
+
+.gambar2 h1 {
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 3.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.smk1 h1 {
+  margin: auto;
+  font-size: 3.5rem;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.hero2 h1 {
+  color: #3d6b9a;
+  font-weight: bold;
+  font-size: 2.1rem;
+}
+
+.hero2 div {
+  padding: 12px 10px 12px 10px;
+  background-color: #294a70;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  max-width: 12rem;
+}
+
+.hero2 div a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.teks {
+  margin-top: 100px;
+  margin-bottom: 70px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.lanjut {
+  padding: 12px 10px 12px 10px;
+  border: 2px solid #294a70;
+  text-align: center;
+  max-width: 24rem;
+  margin: 12px auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.eskul {
+  background-color: #f0eef0;
+  padding-top: 1px;
+  padding-bottom: 70px;
+}
+
+.eskul .teks {
+  margin-top: 100px;
+  margin-bottom: 70px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.teks h1 {
+  font-size: 3rem;
+  color: #3d6b9a;
+  font-weight: 800;
+  margin-top: 40px;
+}
+
+.lanjut a {
+  color: #294a70;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+.prestasi {
+  margin-left: 3rem;
+}
+
+.prestasi .card1 {
+  max-width: 1300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.press {
+  height: 450px;
+}
+
+.card-body h5 {
+  font-size: 2rem;
+  color: #3d6b9a;
+  font-weight: bold;
+}
+/* fa-chalkboard-user */
+
+.card2 {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+  background-color: #fff;
+  display: flex;
+}
+
+.card2 .card-body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  flex-wrap: wrap;
+}
+
+.card2 .card-body .card-text {
+  margin-left: 10px;
+  font-size: 1.8rem;
+}
+
+nav p {
+  margin: 0;
+  color: white;
+  font-size: 0.8rem;
+}
+.nav-item {
+  list-style-type: none;
+  margin: 0 2rem 0 2rem;
+  color: white;
+}
+.judul {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.navbar2 {
+  flex-wrap: wrap;
+}
+.judul h1 {
+  font-size: 3rem;
+  color: #3d6b9a;
+  font-weight: bold;
+}
+.btn:active {
+  background-color: orange;
+}
+.btn:hover {
+  background-color: orange;
+}
+
+.carousel-item h1 span {
+  color: orange;
+}
+.gambar {
+  background: rgba(0, 0, 0, 0.6) url("source/P1060362.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+}
+.gambar2 {
+  background: rgba(0, 0, 0, 0.7) url("source/slide1-1-1100x525.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+}
+.gambar3 {
+  background: rgba(0, 0, 0, 0.7) url("source/anbk-2022.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+.teks {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+}
+
+.teks::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; /* Adjust this value to control the distance of the border from the text */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px; /* Adjust the width of the border */
+  height: 3px;
+  background-color: orange;
+}
+
+.teks h1 {
+  font-size: 3rem;
+  color: #3d6b9a;
+  font-weight: 800;
+}
+
+.hero2 p {
+  font-size: 12.6px;
+}
+
+.hero {
+  display: flex;
+  margin-left: 8rem;
+  margin-top: 1.7rem;
+}
+
+.owl-carousel .card {
+  max-width: 540px;
+}
+
+.col-md-4 .img {
+  width: 300px;
+  margin-right: 12px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.col-md-8 .card-body {
+  margin-top: 15px;
+}
+.col-md-8 .card-body .card-title {
+  background-image: url(source/Nama.png);
+  background-repeat: no-repeat;
+  max-width: 28rem;
+  background-size: cover;
+  padding: 6px;
+  color: #294a70;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.col-md-8 .card-body .fa-solid {
+  color: #294a70;
+}
+
+.content {
+  max-width: 30rem;
+}
+
+.card2 {
+  transition: color 0.4s linear;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+  overflow: hidden; /* Mencegah animasi keluar dari card saat hover */
+  z-index: 2;
+}
+
+
+
+.row .col-lg-4 .card {
+  width: 26rem;
+}
+
+
+.row .col-lg-4 .card .card-img-top .tanggal {
+  background-color: rgb(224, 188, 119);
+  color: #203956;
+  width: 110px;
+  border-radius: 15px;
+  padding: 6px;
+  margin-top: 145px;
+  margin-left: 15px;
+}
+
+.row .col-lg-4 .card .card-img-top .tanggal h1{
+    font-size: 2rem; margin: 0; font-weight: bold;
+}
+
+.row .col-lg-4 .card .card-img-top .tanggal h2{
+    font-size: 1rem;margin: 0;
+}
+.card2:hover {
+  color: #fff;
+}
+
+.card2 i:hover {
+  color: #fff;
+}
+
+.card2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #294a70;
+  color: #fff;
+  z-index: -1;
+  transform-origin: 0 0;
+  transform: scaleX(0);
+  transition: transform 0.5s cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+.card2:hover::before {
+  transform: scaleX(1);
+}
+
+.hero2 {
+  margin-top: 4.6rem;
+  margin-right: 7.6rem;
+  margin-left: 3rem;
+}
+
+.container1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  margin: 70px auto;
+  gap: 2rem;
+}
+
+.container1 .card5 {
+  position: relative;
+  max-width: 750px;
+  height: 215px;
+  background-color: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+}
+.container1 .card5:hover {
+  height: 320px;
+}
+
+.container1 .card5 .image {
+  position: relative;
+  width: 450px;
+  height: 225px;
+  border-radius: 30px;
+  top: -40%;
+  left: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.container1 .card5 .image img {
+  width: 450px;
+  height: 225px;
+  border-radius: 15px;
+}
+
+.container1 .card5 .content {
+  position: relative;
+  top: -140px;
+  padding: 10px 15px;
+  color: #111;
+  text-align: center;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.container1 .card5:hover .content {
+  margin-top: 30px;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+.card-img-top {
+  background-image: url("source/mplss.png");
+  background-size: cover;
+  background-position: top;
+  height: 14rem;
+}
+.card-img-top1 {
+  background-image: url("source/Daftar-Ulang-2023.png");
+  background-size: cover;
+  background-position: center;
+  height: 14rem;
+}
+.card-img-top2 {
+  background-image: url("source/mpls.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 14rem;
+}
+.card-img-top3 {
+  background-image: url("source/paknur.png");
+  background-size: cover;
+  background-position: center;
+  height: 14rem;
+}
+.card-img-top4 {
+  background-image: url("source/h2.png");
+  background-size: cover;
+  background-position: center;
+  height: 14rem;
+}
+.card-img-top5 {
+  background-image: url("source/h1.png");
+  background-size: cover;
+  background-position: center;
+  height: 14rem;
+}
+
+.Contact {
+  overflow-x: hidden;
+}
+.Contact .row {
+  display: flex;
+  background-color: orange;
+  margin-top: 2rem;
+}
+
+.Contact .row .img-contact {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Contact .row form {
+  flex: 1 1 40rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.Contact .row form .input-groub {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: white;
+  padding-left: 2rem;
+  border: 0;
+}
+
+.Contact .row form .input-groub input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1rem;
+  background: none;
+  color: #000;
+  border: 0;
+}
+
+.Contact .row .btn {
+  margin-top: 2rem;
+  padding: 1.2rem 4rem;
+  border-radius: 2rem;
+  background-color: #203956;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Header img {
+  width: 10%;
+  height: 10%;
+  margin-left: 8rem;
+}
+
+.card1 {
+  margin: auto;
+}
+
+.video {
+  width: 613px;
+}
+
+.hero1 h1 {
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #294a70;
+  white-space: nowrap;
+  display: inline-block;
+  margin-bottom: 24px;
+  margin-top: 16px;
+}
+
+@media (max-width: 1254px){
+  .row .col-lg-4 .card {
+    width: 22rem;
+  }
+  .hero {
+    flex-wrap: wrap;
+    margin-left: 1.6rem;
+  }
+}
+@media (max-width: 1193px){
+  .row .col-lg-4 .card {
+    width: 20rem;
+  }
+  .hero {
+    flex-wrap: wrap;
+    margin-left: 1.6rem;
+  }
+}
+
+@media (max-width: 1180px) {
+  .telp {
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+    width: 100%;
+  }
+
+  .email p {
+    margin-top: 4px;
+    font-size: 0.6rem;
+    align-items: center;
+  }
+
+  .email i {
+    font-size: 1rem;
+  }
+
+  .hero1 h1 {
+    font-size: 1.4rem;
+  }
+  .prestasi {
+    margin-left: 1.3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    flex-wrap: wrap;
+    margin-left: 1.6rem;
+  }
+
+  
+  .container {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .row{
+    margin: 0;
+  }
+  .card {
+    width: 26rem;
+  }
+  .eskul {
+    justify-content: center;
+    margin: auto;
+  }
+
+  .card1 {
+    margin-left: 0.3rem;
+    margin-right: 1.3rem;
+  }
+
+  .row {
+    margin: auto;
+    justify-content: center;
+    margin-left: 2.3rem;
+  }
+
+  .hero2 {
+    margin-left: 1.3px;
+    margin-right: 0.7rem;
+    margin-top: 0.4rem;
+  }
+
+  .hero2 p {
+    max-width: 100rem;
+  }
+
+  .judul h1 {
+    font-size: 1.6rem;
+  }
+  .judul p {
+    font-size: 1.3rem;
+  }
+
+  .Header img {
+    width: 78px;
+    margin-left: 1.3rem;
+  }
+  .col-md-4 .img{
+   width: 80px;
+   margin-left: 0px;
+   text-align: center;
+  }
+  .hero {
+    flex-wrap: wrap;
+  }
+
+  .card2{
+    flex-wrap: wrap;
+  }
+  .video {
+    width: 413px;
+  }
+}
+@media (max-width: 992px){
+  .row .col-lg-4 .card {
+    justify-content: center;
+    margin: auto;
+    width: 28rem;
+  }
+  .card2 .card-body{
+    padding:1.4rem;
+  }
+  .container .row{
+    margin: 0;
+  }
+  .hero {
+    flex-wrap: wrap;
+    margin-left: 1.6rem;
+  }
+  .video {
+    width: 513px;
+  }
+  
+}
+
+@media (max-width: 900px){
+  .video {
+    width: 416px;
+  }
+  .hero {
+    flex-wrap: wrap;
+    margin-left: 1.6rem;
+  }
+  
+  .card2 .card-body{
+    padding:2.4rem;
+  }
+  .container .row{
+    margin: 0;
+  }
+  
+
+}
+@media (max-width:761px){
+  .card2 .card-body{
+    padding:4rem;
+  }
+}
+@media (max-width:480px){
+  .row .col-lg-4 .card {
+    width: 19rem;
+  }
+  .email .ubah{
+   display: block;
+  }
+
+  .container1 .card5{
+    max-width: 350px;
+  }
+  .container1 .card5 .image {
+  position: relative;
+  width: 306px;
+  height: 225px;
+  border-radius: 30px;
+  top: -40%;
+  left: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.container1 .card5 .image img {
+  width: 306px;
+  height: 225px;
+  border-radius: 15px;
+}
+
+.teks h1{
+  font-size: 2.1rem;
+}
+
+.video{
+  width: 380px;
+}
+
+.lanjut {
+padding: 12px 10px 12px 10px;
+border: 2px solid #294a70;
+text-align: center;
+max-width: 18rem;
+
+margin-top: 5rem;
+margin-bottom: 5rem;
+}
+}
+
+@media (max-width:433px){
+  .hero1 h1{
+    font-size: 1.1rem;
+  }
+  .video{
+    width: 340px;
+  }
+}
